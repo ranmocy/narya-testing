@@ -1,4 +1,4 @@
-# PwnedNoMore Invariant Examples
+# Narya AI Invariant Examples
 
 ## Base
 

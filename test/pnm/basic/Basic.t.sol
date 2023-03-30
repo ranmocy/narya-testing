@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-import {PTest} from "@pwnednomore/contracts/PTest.sol";
+import {PTest} from "@narya-ai/contracts/PTest.sol";
 import {VulnerableDoor} from "src/callback/VulnerableDoor.sol";
 
 // An invariant test runs as follows:
