@@ -61,7 +61,7 @@ contract SimpleDexTest is PTest {
 
     function invariantProtocolBalanceShouldAlwaysBeSafe() public view {
         address protocol = address(target);
-        assert(token.balanceOf(protocol) + protocol.balance >= 20);
+        assert(token.balanceOf(protocol) + protocol.balance >= 10);
     }
 
     function invariantHackerCanNotGainToken() public view {

@@ -21,7 +21,7 @@ contract ERC4626RedeemTest is PTest {
         token.transfer(alice, 50);
         vm.stopPrank();
 
-        asAccountForNextCall(alice);
+        vm.prank(alice);
         vault.mint(1, alice);
 
         agent = getAgent();
