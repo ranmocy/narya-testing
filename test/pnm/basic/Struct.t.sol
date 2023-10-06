@@ -2,9 +2,9 @@
 pragma solidity ^0.8.0;
 
 import "src/basic/Struct.sol";
-import "@narya-ai/contracts/PTest.sol";
+import "@narya-ai/contracts/NaryaTest.sol";
 
-contract StructTest is PTest {
+contract StructTest is NaryaTest {
     Struct st;
 
     address agent;

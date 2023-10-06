@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 
-import "@narya-ai/contracts/PTest.sol";
+import "@narya-ai/contracts/NaryaTest.sol";
 import "src/PFP.sol";
 
-contract ERC721OwnerTest is PTest {
+contract ERC721OwnerTest is NaryaTest {
     address user = address(0x927);
 
     PFP pfp;

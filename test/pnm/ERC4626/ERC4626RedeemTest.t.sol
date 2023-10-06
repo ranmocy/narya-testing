@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 
-import "@narya-ai/contracts/PTest.sol";
+import "@narya-ai/contracts/NaryaTest.sol";
 import "src/Token.sol";
 import "src/Vault.sol";
 
-contract ERC4626RedeemTest is PTest {
+contract ERC4626RedeemTest is NaryaTest {
     address owner = address(0x1);
     address alice = address(0x927);
     address agent;

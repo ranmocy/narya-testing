@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 
-import "@narya-ai/contracts/PTest.sol";
+import "@narya-ai/contracts/NaryaTest.sol";
 import "@openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol";
 import "src/GameItems.sol";
 
-contract ERC1155SafeTransferFromTest is PTest, IERC1155Receiver {
+contract ERC1155SafeTransferFromTest is NaryaTest, IERC1155Receiver {
     address owner = address(0x1);
     address alice = address(0x927);
     address agent;

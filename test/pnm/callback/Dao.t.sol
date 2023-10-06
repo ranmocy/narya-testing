@@ -2,9 +2,9 @@
 pragma solidity ^0.8.0;
 
 import "src/callback/Dao.sol";
-import "@narya-ai/contracts/PTest.sol";
+import "@narya-ai/contracts/NaryaTest.sol";
 
-contract DAOTest is PTest {
+contract DAOTest is NaryaTest {
     DAO dao;
 
     address user = address(0x1);
